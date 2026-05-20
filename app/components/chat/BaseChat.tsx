@@ -351,12 +351,12 @@ export const BaseChat = React.forwardRef<HTMLDivElement, BaseChatProps>(
         <div className="flex flex-col lg:flex-row overflow-y-auto w-full h-full">
           <div className={classNames(styles.Chat, 'flex flex-col flex-grow lg:min-w-[var(--chat-min-width)] h-full')}>
             {!chatStarted && (
-              <div id="intro" className="mt-[16vh] max-w-2xl mx-auto text-center px-4 lg:px-0">
-                <h1 className="text-3xl lg:text-6xl font-bold text-bolt-elements-textPrimary mb-4 animate-fade-in">
-                  Where ideas begin
+              <div id="intro" className="mt-[16vh] max-w-2xl mx-auto text-center px-4 lg:px-0 relative z-10">
+                <h1 className="text-4xl lg:text-7xl font-extrabold text-white mb-6 animate-fade-in tracking-tighter">
+                   Blake <span className="text-[#fb3a5d]">Core</span>
                 </h1>
-                <p className="text-md lg:text-xl mb-8 text-bolt-elements-textSecondary animate-fade-in animation-delay-200">
-                  Bring ideas to life in seconds or get help on existing projects.
+                <p className="text-lg lg:text-2xl mb-12 text-gray-400 animate-fade-in animation-delay-200 max-w-xl mx-auto leading-relaxed">
+                  The ultimate workspace for AI-driven development. Refined for speed, built for builders.
                 </p>
               </div>
             )}

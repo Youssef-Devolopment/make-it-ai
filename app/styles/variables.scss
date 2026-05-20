@@ -109,16 +109,16 @@
 /* Color Tokens Dark Theme */
 :root,
 :root[data-theme='dark'] {
-  --bolt-elements-borderColor: theme('colors.alpha.white.10');
-  --bolt-elements-borderColorActive: theme('colors.accent.500');
+  --bolt-elements-borderColor: rgba(255, 255, 255, 0.1);
+  --bolt-elements-borderColorActive: #fb3a5d;
 
-  --bolt-elements-bg-depth-1: theme('colors.gray.950');
-  --bolt-elements-bg-depth-2: theme('colors.gray.900');
-  --bolt-elements-bg-depth-3: theme('colors.gray.800');
-  --bolt-elements-bg-depth-4: theme('colors.alpha.white.5');
+  --bolt-elements-bg-depth-1: #000000;
+  --bolt-elements-bg-depth-2: #0a0a0a;
+  --bolt-elements-bg-depth-3: #111111;
+  --bolt-elements-bg-depth-4: rgba(255, 255, 255, 0.05);
 
-  --bolt-elements-textPrimary: theme('colors.white');
-  --bolt-elements-textSecondary: theme('colors.gray.400');
+  --bolt-elements-textPrimary: #ffffff;
+  --bolt-elements-textSecondary: #9ca3af;
   --bolt-elements-textTertiary: theme('colors.gray.500');
 
   --bolt-elements-code-background: theme('colors.gray.800');
